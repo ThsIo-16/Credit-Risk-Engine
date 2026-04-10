@@ -30,9 +30,11 @@ Credit_Risk_Analysis/
 ├── notebooks/
 │   └── 01_Exploratory_Data_Analysis.ipynb  # EDA, Data Cleaning & Feature Importance
 │
-├── src/
+├── scripts/
 │   ├── model_training.py    # Training script 
-│   ├── dashboard.py         # Streamlit Web Application 
+│   └── dashboard.py         # Streamlit Web Application 
+│
+├── src/
 │   ├── risk_model.pkl       # Saved RF Model
 │   └── model_features.pkl   # Saved feature columns for dummy alignment
 │
@@ -54,5 +56,5 @@ Credit_Risk_Analysis/
 
 3. **Launch the Dashboard:**
    ```bash
-   streamlit run src/dashboard.py
+   streamlit run scripts/dashboard.py
    ```
